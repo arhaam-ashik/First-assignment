@@ -25,7 +25,7 @@ h1 {
 }
 
 p {
-    font-size: medium;
+
     margin-bottom: 30px;
     color: white;
 }
@@ -41,6 +41,7 @@ p {
 
 .donation-quote {
     color: gray;
+    font-size: 18px;
 }
 
 .donation-process {
@@ -97,4 +98,39 @@ p {
     font-size: 20px;
     font-weight: bold;
     border-radius: 4%;
+}
+
+.flex {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 350px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+#food {
+    padding: 50px 40px;
+    margin-right: 3%;
+    background: lightskyblue;
+    border-radius: 3%;
+    text-align: justify;
+}
+
+#shelter {
+    padding: 50px 40px;
+    margin-right: 3%;
+    background: rgb(197, 151, 143);
+    border-radius: 3%;
+    text-align: justify;
+}
+
+#education {
+    padding: 50px 40px;
+    margin-right: 3%;
+    background: rgb(197, 197, 167);
+    border-radius: 3%;
+    text-align: justify;
 }
