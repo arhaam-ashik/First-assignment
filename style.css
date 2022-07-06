@@ -11,6 +11,7 @@ body {
     background-size: cover;
     background-position: center;
     padding: 2px;
+    margin-bottom: 150px;
 }
 
 .donation-center {
@@ -35,4 +36,65 @@ p {
     padding: 10px 40px;
     border-radius: 10px;
     color: white;
+    text-align: center;
+}
+
+.donation-quote {
+    color: gray;
+}
+
+.donation-process {
+    text-align: center;
+}
+
+.amount-selection {
+    text-align: center;
+    width: 80%;
+    display: flex;
+    margin-left: 20%;
+}
+
+.select {
+    padding: 20px 35px;
+    background-color: #b8aeaeb6;
+    margin-right: 2%;
+    border-radius: 2%;
+}
+
+#uniq {
+    padding: 20px 35px;
+    background-color: #FFEEEE;
+    margin-right: 2%;
+    border-radius: 2%;
+    color: #FF5959;
+    border: 1px solid #FF5959;
+}
+
+.input-money {
+    text-align: center;
+}
+
+.donation-amount {
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 50%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+.second-section {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.button-all {
+    color: white;
+    text-decoration: none;
+    background: tomato;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4%;
 }
